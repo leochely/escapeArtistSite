@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
   <link rel="stylesheet" href="css/style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
@@ -28,9 +29,9 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#about">ABOUT</a></li>
-        <li><a href="#services">FEATURES</a></li>
-        <li><a href="#portfolio">THE TEAM</a></li>
-        <li><a href="#pricing">DOWNLOAD</a></li>
+        <li><a href="#features">FEATURES</a></li>
+        <li><a href="#team">THE TEAM</a></li>
+        <li><a href="#download">DOWNLOAD</a></li>
         <li><a href="#contact">CONTACT</a></li>
       </ul>
     </div>
@@ -45,95 +46,78 @@
 <div id="about" class="container-fluid">
   <div class="row">
     <div class="col-sm-8">
-      <h2>About Company Page</h2><br>
-      <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <br><button class="btn btn-default btn-lg">Get in Touch</button>
+      <h2>What is Escape Artist?</h2><br>
+      <h4>You are trapped in your canvas. Try to escape.</h4><br>
+      <p>Escape Artist is a school project made by 4 computer science students. The game has been made with Game Maker Studio 2. This is a semester long project that ended up being featured at the Colorado School of Mines Spring 2019 Innovation Fair. </p>
     </div>
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-signal logo"></span>
-    </div>
-  </div>
-</div>
-
-<div class="container-fluid bg-grey">
-  <div class="row">
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-globe logo slideanim"></span>
-    </div>
-    <div class="col-sm-8">
-      <h2>Our Values</h2><br>
-      <h4><strong>MISSION:</strong> Our mission lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
-      <p><strong>VISION:</strong> Our vision Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <img class="img-responsive slideanim" src="img/player.png">
     </div>
   </div>
 </div>
 
 <!-- Container (Services Section) -->
-<div id="services" class="container-fluid text-center">
-  <h2>SERVICES</h2>
-  <h4>What we offer</h4>
+<div id="fratures" class="container-fluid text-center">
+  <h2>FEATURES</h2>
   <br>
   <div class="row slideanim">
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-off logo-small"></span>
-      <h4>POWER</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+      <img src="img/monster.png">
+      <h4>MONSTERS</h4>
+      <p>Trying to kill you</p>
     </div>
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-heart logo-small"></span>
-      <h4>LOVE</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+      <img src="img/powerup.png">
+      <h4>POWERUPS</h4>
+      <p>To help you survive</p>
     </div>
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-lock logo-small"></span>
-      <h4>JOB DONE</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+      <i style="font-size:64px;color:white" class='fas fa-book-open'></i>
+      <h4>LORE</h4>
+      <p>Even Tolkien is jealous</p>
     </div>
   </div>
   <br><br>
   <div class="row slideanim">
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-leaf logo-small"></span>
-      <h4>GREEN</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+    <div class="col-sm-6">
+      <i class='fas fa-shoe-prints' style='font-size:64px;color:white'></i>
+      <h4>SPRINT</h4>
+      <p>Who said speedrunning?</p>
     </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-certificate logo-small"></span>
-      <h4>CERTIFIED</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
-    </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-wrench logo-small"></span>
-      <h4 style="color:#303030;">HARD WORK</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+    <div class="col-sm-6">
+      <i style="font-size:64px;color:white" class='fas fa-gamepad'></i>
+      <h4>CONTROLLER SUPPORT</h4>
+      <p>For stick and pads!</p>
     </div>
   </div>
 </div>
 
 <!-- Container (Portfolio Section) -->
-<div id="portfolio" class="container-fluid text-center bg-grey">
+<div id="team" class="container-fluid text-center bg-grey">
 
-  <h2>What our customers say</h2>
+  <h2>THE TEAM</h2>
   <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
     </ol>
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <h4>"This company is the best. I am so happy with the result!"<br><span>Michael Roe, Vice President, Comment Box</span></h4>
+        <h4>L&eacute;o Chely<br><span>BS in CS+Robotics, May 2020</span></h4>
       </div>
       <div class="item">
-        <h4>"One word... WOW!!"<br><span>John Doe, Salesman, Rep Inc</span></h4>
+        <h4>David An<br><span>BS in CS, May 2020</span></h4>
       </div>
       <div class="item">
-        <h4>"Could I... BE any more happy with this company?"<br><span>Chandler Bing, Actor, FriendsAlot</span></h4>
+        <h4>Mykel Allen<br><span>MS in CS, May 2019</span></h4>
+      </div>
+      <div class="item">
+        <h4>Frank Enciso<br><span>CS, December 2019</span></h4>
       </div>
     </div>
 
@@ -150,66 +134,46 @@
 </div>
 
 <!-- Container (Pricing Section) -->
-<div id="pricing" class="container-fluid">
+<div id="download" class="container-fluid">
   <div class="text-center">
-    <h2>Pricing</h2>
-    <h4>Choose a payment plan that works for you</h4>
+    <h2>DOWNLOAD</h2>
+    <h4>Choose the version corresponding to your OS.</h4>
   </div>
   <div class="row slideanim">
     <div class="col-sm-4 col-xs-12">
       <div class="panel panel-default text-center">
         <div class="panel-heading">
-          <h1>Basic</h1>
+          <h1>Windows</h1>
         </div>
         <div class="panel-body">
-          <p><strong>20</strong> Lorem</p>
-          <p><strong>15</strong> Ipsum</p>
-          <p><strong>5</strong> Dolor</p>
-          <p><strong>2</strong> Sit</p>
-          <p><strong>Endless</strong> Amet</p>
+          <p>Windows 7, 8 and 10</p>
         </div>
         <div class="panel-footer">
-          <h3>$19</h3>
-          <h4>per month</h4>
-          <button class="btn btn-lg">Sign Up</button>
+          <button class="btn btn-lg">Download</button>
         </div>
       </div>
     </div>
     <div class="col-sm-4 col-xs-12">
       <div class="panel panel-default text-center">
         <div class="panel-heading">
-          <h1>Pro</h1>
+          <h1>Mac</h1>
         </div>
         <div class="panel-body">
-          <p><strong>50</strong> Lorem</p>
-          <p><strong>25</strong> Ipsum</p>
-          <p><strong>10</strong> Dolor</p>
-          <p><strong>5</strong> Sit</p>
-          <p><strong>Endless</strong> Amet</p>
+          <p>Not released yet</p>
         </div>
         <div class="panel-footer">
-          <h3>$29</h3>
-          <h4>per month</h4>
-          <button class="btn btn-lg">Sign Up</button>
         </div>
       </div>
     </div>
     <div class="col-sm-4 col-xs-12">
       <div class="panel panel-default text-center">
         <div class="panel-heading">
-          <h1>Premium</h1>
+          <h1>Linux</h1>
         </div>
         <div class="panel-body">
-          <p><strong>100</strong> Lorem</p>
-          <p><strong>50</strong> Ipsum</p>
-          <p><strong>25</strong> Dolor</p>
-          <p><strong>10</strong> Sit</p>
-          <p><strong>Endless</strong> Amet</p>
+          <p>Not released yet</p>
         </div>
         <div class="panel-footer">
-          <h3>$49</h3>
-          <h4>per month</h4>
-          <button class="btn btn-lg">Sign Up</button>
         </div>
       </div>
     </div>
@@ -220,28 +184,29 @@
 <div id="contact" class="container-fluid bg-grey">
   <h2 class="text-center">CONTACT</h2>
   <div class="row">
-    <div class="col-sm-5">
-      <p>Contact us and we'll get back to you within 24 hours.</p>
-      <p><span class="glyphicon glyphicon-map-marker"></span> Chicago, US</p>
-      <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
-      <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
+    <div class="col-sm-12 text-center">
+      <p>Contact us and we'll quickly get back to you.</p>
     </div>
-    <div class="col-sm-7 slideanim">
-      <div class="row">
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
-        </div>
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-        </div>
-      </div>
-      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
-      <div class="row">
-        <div class="col-sm-12 form-group">
-          <button class="btn btn-default pull-right" type="submit">Send</button>
-        </div>
-      </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4 text-center"></div>
+    <div class="col-sm-2 text-center">
+      <p><span class="glyphicon glyphicon-envelope"></span> <a href="mailto:leochely@mymail.mines.edu?Subject=Escape%20Artist" target="_top">L&eacute;o Chely</a></p>
     </div>
+    <div class="col-sm-2 text-center">
+      <p><span class="glyphicon glyphicon-envelope"></span> <a href="mailto:dan@mymail.mines.edu?Subject=Escape%20Artist" target="_top">David An</a></p>
+    </div>
+    <div class="col-sm-4 text-center"></div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4 text-center"></div>
+    <div class="col-sm-2 text-center">
+      <p><span class="glyphicon glyphicon-envelope"></span> <a href="mailto:fenciso@mymail.mines.edu?Subject=Escape%20Artist" target="_top">Frank Enciso</a></p>
+    </div>
+    <div class="col-sm-2 text-center">
+      <p><span class="glyphicon glyphicon-envelope"></span> <a href="mailto:myallen@mymail.mines.edu?Subject=Escape%20Artist" target="_top">Mykel Allen</a></p>
+    </div>
+    <div class="col-sm-4 text-center"></div>
   </div>
 </div>
 
